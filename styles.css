@@ -68,8 +68,10 @@ h2{
 }
 .sec__svg1{
     width:15px;
-    margin-right:10px;
  
+}
+.t1{
+    margin-left:10px;
 }
 .sec_div1_2{
     display: flex;
