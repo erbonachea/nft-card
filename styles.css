@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+:root{
+    --Very_dark_bluebody: hsl(217, 54%, 11%);
+--Very_dark_bluecard: hsl(216, 50%, 16%);
+--Very_dark_blueline: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+--Soft_blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+}
+*{
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color:var(--Very_dark_bluebody);
+    color: var(--Soft_blue);
+    font-size: 18px;
+}
+
+.sec{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color:var(--Very_dark_bluecard);
+    margin: 23px;
+    margin-top: 60px;
+    width:315px;
+    border-radius: 15px;
+}
+h2{
+    color: var(--White);
+    width:270px;
+    margin:20px;
+    margin-top:1px;
+    margin-block-end:1px;
+}
+.sec_p1{
+    width:270px;
+    margin:20px;
+    margin: top 1px;
+}
+.sec__img1{
+    border-radius: 9px;
+    width: 270px;
+    z-index:2;
+    
+}
+.sec_svg3{
+    position: absolute;
+    margin-top:110px ;
+    width: 48px;
+    height:50px;
+    z-index:2;
+}
+.sec_div1{
+    display: flex;
+    height:30px;
+    width:270px;
+    margin:20px;
+    margin-top:1px;
+    margin-block-end:10px;
+
+}
+.sec_div1_1{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid --White;
+    color: var(--Cyan);   
+}
+.sec__svg1{
+    width:15px;
+    margin-right:10px;
+ 
+}
+.sec_div1_2{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.sec__svg2{
+    width:20px;
+    border-radius: 100%;
+    margin-right:10px;
+}
+.sec_p3{
+    width:270px;
+    margin:20px;
+    margin-top: 10px;
+    margin-block-end:30px;
+    height:30px;
+    display: flex;
+    align-items: center;
+    
+}
+.sec__img2{ 
+    width:30px;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-right:20px;
+}
+.author{
+    color: var(--White);
+}
+.line{
+    color:var(--Soft_blue);
+    width: 270px;
+    
+}
+.img_back{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border-radius:11px;
+    width: 270px;
+    background-color:var(--Cyan);
+    position: relative;
+}
+.active1:hover{
+    cursor: pointer;
+}
+.active1:hover+.active{
+    cursor: pointer;
+    opacity:0.4;
+ z-index:1;
+}
+.active{
+    transition:0.3s;
+}
+.active:hover{
+    cursor: pointer;
+   opacity:0.4;
+z-index:1;
+}
+.active-text{
+    transition:0.7s;
+}
+.active-text:hover
+{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+@media(min-width:375px) 
+{
+    body{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
